@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Chatopia</string>
+    <string name="app_desc">Welcome to Chatopia</string>
+    <string name="continueWithGoogle">Continue With Google</string>
+    <string name="sep">or</string>
+    <string name="app_create">Create Account</string>
+    <string name="tndC">By signing up, you agree to our Terms, Privacy Policy, and Cookie Use.</string>
+    <string name="app_login">Have an account already?</string>
+    <string name="dash">------------</string>
+    <string name="reg_desc">Create your account</string>
+    <string name="name">Name</string>
+    <string name="emailOrPhone">Phone Number or email address</string>
+    <string name="dob">Date of birth</string>
+    <string name="next">Next</string>
+    <string name="blank">Blank</string>
+    <string name="usePhone">Use Phone instead</string>
+    <string name="uPhone">Phone Number</string>
+    <string name="uEmail">Email</string>
+    <string name="cNotReceive">Did not receive email?</string>
+    <string name="cVerify">Verification Code</string>
+    <string name="cEnter">Enter it below to verify</string>
+    <string name="otp">We sent you a code</string>
+    <string name="gStarted">To get started, first enter your phone, email, or @username</string>
+    <string name="lParam">Phone, email or username</string>
+    <string name="lForget">Forget Password?</string>
+    <string name="login_desc">Welcome back! Log in to see the latest.</string>
+    <string name="loginD">Log in</string>
+    <string name="app_signup">Don\'t have an account?</string>
+    <string name="signUp">Sign up</string>
+    <string name="logIn">Log in</string>
+    <string name="tndCSignup">By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Chatopia may use your contact information, including your email address and phone number for purposes outlined in our Privacy Policy, like keeping your account secure and personalizing our services, including ads. Learn more. Others will be able to find you by email or phone number, when provided, unless you choose otherwise here.</string>
 </resources>
