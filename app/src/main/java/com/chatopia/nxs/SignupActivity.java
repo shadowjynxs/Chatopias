@@ -39,33 +39,27 @@ public class SignupActivity extends AppCompatActivity {
 
 
         assert xName != null;
-        xName.setText((CharSequence) mName);
+        xName.setText(mName);
         assert isNum != null;
         if (isNum.equals(getString(R.string.uEmail))) {
             assert xEmail != null;
             email.setHint(R.string.uEmail);
-            xEmail.setText((CharSequence) mEmail);
+            xEmail.setText(mEmail);
         } else if (isNum.equals(getString(R.string.uPhone))) {
             assert xEmail != null;
             email.setHint(R.string.uPhone);
             xEmail.setInputType(InputType.TYPE_CLASS_NUMBER);
-            xEmail.setText((CharSequence) mEmail);
+            xEmail.setText(mEmail);
         }
 
         assert xDob != null;
-        xDob.setText((CharSequence) mDob);
+        xDob.setText(mDob);
 
         cAcc.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), ConfirmSignup.class)));
 
-        xName.setOnClickListener(v -> {
-            finish();
-        });
+        xName.setOnClickListener(v -> finish());
         assert xEmail != null;
-        xEmail.setOnClickListener(v -> {
-            finish();
-        });
-        xDob.setOnClickListener(v -> {
-            finish();
-        });
+        xEmail.setOnClickListener(v -> finish());
+        xDob.setOnClickListener(v -> finish());
     }
 }

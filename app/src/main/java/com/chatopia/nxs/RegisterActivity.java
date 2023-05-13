@@ -9,19 +9,6 @@ import android.text.InputType;
 import android.text.TextUtils;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import android.app.DatePickerDialog;
-import android.content.Context;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.DatePicker;
-import android.widget.EditText;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.Calendar;
-
-
 import com.google.android.material.textfield.TextInputLayout;
 
 public class RegisterActivity extends AppCompatActivity {
