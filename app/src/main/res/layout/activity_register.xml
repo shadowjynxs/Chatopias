@@ -69,7 +69,6 @@
         android:background="@android:color/transparent"
         android:maxWidth="320dp"
         android:minWidth="320dp"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rName">
@@ -79,35 +78,7 @@
             android:layout_height="match_parent"
             android:hint="@string/uEmail"
             android:importantForAutofill="no"
-            android:inputType="text"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/rPhone"
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="40dp"
-        android:background="@android:color/transparent"
-        android:maxWidth="320dp"
-        android:minWidth="320dp"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rName">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/uPhone"
-            android:importantForAutofill="no"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
@@ -152,6 +123,7 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -162,6 +134,7 @@
         app:layout_constraintTop_toTopOf="@id/line" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"

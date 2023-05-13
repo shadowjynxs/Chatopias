@@ -29,4 +29,5 @@
     <string name="signUp">Sign up</string>
     <string name="logIn">Log in</string>
     <string name="tndCSignup">By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Chatopia may use your contact information, including your email address and phone number for purposes outlined in our Privacy Policy, like keeping your account secure and personalizing our services, including ads. Learn more. Others will be able to find you by email or phone number, when provided, unless you choose otherwise here.</string>
+    <string name="use_email_instead">Use Email instead</string>
 </resources>
